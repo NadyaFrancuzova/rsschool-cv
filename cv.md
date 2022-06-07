@@ -25,3 +25,6 @@ technical English at the elementary level
 </body>
 </html>
 ```
+# CV
+# Srednespecial POVT and AS, Higher SSISK, courses in 1c programming
+# technical English at the elementary level
