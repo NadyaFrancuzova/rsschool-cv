@@ -8,10 +8,12 @@
   width: 100%;
   
   
+  
 }
 .menu {
   width: 100%;
   display: table;
+  max-width: 720px;
 }
     .menu ul {
     display: table-row;
