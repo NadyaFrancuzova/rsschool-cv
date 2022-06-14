@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/GentiumPlus-BoldItalic.ttf");
+     
+     @font-face {
+        font-family: Roboto;
+         src: url("assets/fonts/Roboto-Black.ttf");
+       }
+     .box-sizing 
+       {
+        box-sizing: border-box;
+      }
