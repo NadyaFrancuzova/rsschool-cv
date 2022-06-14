@@ -1,1 +1,1 @@
-https://NadyaFrancuzova.github.io/rsschool-cv
+https://NadyaFrancuzova.github.io/rsschool-cv/index.html
