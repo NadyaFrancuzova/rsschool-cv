@@ -1,1 +1,1 @@
-https://NadyaFrancuzova.github.io/rsschool-cv/index.html
+https://github.com/NadyaFrancuzova/rsschool-cv.git/trevel/index.html
