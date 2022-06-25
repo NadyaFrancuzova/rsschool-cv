@@ -1,92 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Whitesquare</title>
+	<link rel="stylesheet" href="style.css">
+    <link type="image/png" sizes="192x192" rel="icon" href="…/android-icon-192x192.png">
     <style>
 
     </style>
-    
 </head>
-
 <body>
-<div id="wrapper">
-<header class="header">
-    <div class="menu" >
-        <ul>
-            <li><a href="#contacts" class="nav-link">Contacts</a></li>
-            <li><a href="#summary" class="nav-link">Summary</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li> <a href="#code" class="nav-link">Code</a></li>
-            <li><a href="#courses" class="nav-link">Courses</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#education" class="nav-link">Education</a></li>
-            <li> <a href="#english" class="nav-link">English</a></li>
-        </ul>
-    </div>
-</header> 
-<nav>
-<div class="container">
-    <div class="row">
-        <div class="col-1-2">
+    <header>
+        <nav>
+            <ul class="top-menu">
+                <li><a href="#photo" class="nav-link">Photo</li>
+                <li><a href="#courses" class="nav-link">Courses</a></li>
+                <li><a href="#contacts" class="nav-link">Сontacts</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#code" class="nav-link">Code</a></li>
+                <li><a href="#goal" class="nav-link">Goal</a></li>
+            </ul>
+        </nav> 
+    </header>
+	<main>
+        <form name="search" action="#" method="get">
+            <input type="text" name="q" placeholder="Search"><button type="submit">GO</button>
+        </form>
+    </main>
+	<section>
+        <div id="photo">
+            <h1>Frantsuzova Nadezhda</h1>
             <p class="rightpic">
             <img src="https://user-images.githubusercontent.com/105450665/172068649-9b77c3b1-4763-4f90-8de4-6db708d2f125.jpg" alt="Фото" width="250">
             </p>
         </div>
-        <div class="col-1-2">
-            <p>Frantsuzova Nadezhda</p>
-            <br>
-            <p>JUNIOR FRONT-END DEVELOPER </p>
+        <div id="courses">
+            <p><h2>JUNIOR FRONT-END DEVELOPER </h2></p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-1-2"> 
-            <p>telephone: 89371871290</p> 
+        <div id="contacts">
+            <p><h2>telephone: 89371871290</h2></p>
         </div>
-        <div class="col-1-2">
-            <p> My goal is to master a new profession, I hope thanks to perseverance, diligence and perseverance I will succeed!
-    Programming in 1C language</p>
+        <div id="education">
+            <p><h2>Srednespecial POVT and AS, Higher SSISK, courses in 1c programming technical English at the elementary level</h2></p>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-1-2">
-        <p> <pre>
-            <code>
-                ```javascript
-                function multiply(a, b){
-                return a * b;
-                }
-                ```
-            </code>
-             </pre>
-        </p>
-                   
+        <div id="code">
+            <p> <h2>
+                <pre>
+                <code>
+                    ```javascript
+                    function multiply(a, b){
+                    return a * b;
+                    }
+                    ```
+                </code>
+                 </pre>
+                </h2>
+            </p>
         </div>
-        <div class="col-1-2">
-            <p>Srednespecial POVT and AS, Higher SSISK, courses in 1c programming
-    technical English at the elementary level</p>
+        <div id="goal"></div>
+        <p> <h2>My goal is to master a new profession, I hope thanks to perseverance, diligence and perseverance I will succeed! Programming in 1C language</h2></p>
+    </section>
+	<footer>
+        <div class="menu">
+            <ul>
+                <li><p><a href="https://github.com/NadyaFrancuzova">NadyaFrancuzova</a></p></li>
+                <li><p>2022</p></li> 
+                <li><p><a href="https://rs.school/js/"></a><img class="logo" src="/rsschool-cv/assets/img/logo-rs.svg" alt="Логотип" width="100"></p></li>
+            </ul>
         </div>
-    </div>
-       
-  
-</div>
-</nav>
-  
-
-<footer class="footer">
-<div class="menu">
-    <ul>
-        <li><p><a href="https://rs.school/js/">Ссылка на урок</a></p></li>
-        <li><p><a href="https://github.com/NadyaFrancuzova">NadyaFrancuzova</a></p></li>
-        <li><p>2022</p></li> 
-        <li><p><img class="logo" src="/rsschool-cv/assets/rs_school_js.svg" alt="Логотип" width="100"></p></li>
-    </ul>
-</div>     
-</footer>   
-</div>    
+    </footer>
 </body>
-
 </html>
