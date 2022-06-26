@@ -1,171 +1,194 @@
 body {
-	color: #8f8f8f;
-	font: 12px Tahoma, sans-serif;
-	background-color: #f8f8f8;
-	border-top: 5px solid #7e7e7e;
-	margin: 0;
-  cursor:pointer;
+  position: absolute;
+  width: 1440px;
+  height: 765px;
+  left: 0px;
+  top: 0px;
+  background-image: url(assets/img/1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  
 }
-input[type="text"] {
-	background-color: #f3f3f3;
-	border: 1px solid #e7e7e7;
-	height: 30px;
-	color: #b2b2b2;
-	padding: 0 10px;
-	vertical-align: top;
-}
-button {
-	color: #fff;
-	background-color: #29c5e6;
-	border: none;
-	height: 32px;
-	font-family: 'Oswald', sans-serif;
-}
-p {
-	margin: 20px 0;
-}
-#wrapper {
-	max-width: 960px;
-	margin: auto;
-  max-width: 1440px;
+#wrapper{
+  position: absolute;
+  width: 1440px;
+  min-height: 950px;
+  margin-left: -500px; /* Внешний левый отступ. Отрицательное значение означает, что блок выходит за левого края браузера на 500px */
+  left: 50%; /* Позиционирование относительно левого края окна браузера */
+  background-color: #FFFFFF; /* Цвет фона для блока */
 }
 header {
-  width: 1440px;
-	padding: 40px 0;
-  max-width: 1440px;
   margin: auto;
-  color: rgb(230, 220, 220);
-}
-.menu {
-  width: 1440px;
-  margin: auto;
-  display: table;
-  max-width: 1440px;
-  padding: 10px 0;
-	height: 90px;
-  
+  position: absolute;
+  width: 1250px;
+  height: 90px;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  background: #F2785C url(assets/img/logo.svg) no-repeat 5% 50% ;
+  text-align: left;
+  }
+
+.frame{
+
+position: absolute;
+width: 103px;
+height: 41px;
+left: 1100px;
+top: 25px;
 
 }
-    .menu ul {
-    display: table-row;
-    }
-    .menu li {
-    display: table-cell;
-    background: #9ca2a8;
-    }
-    .menu ul li:hover, .menu a:hover {
-    background: rgb(177, 149, 149);
-    }
-    .menu li a {
-    display: block;
-    padding: 8px 15px;
-    color: #fff;
-    text-align: center;
-    }
-    nav a {
-      text-decoration: none;
-    }
-    
-    nav ul {
-      margin: 0;
-      padding: 0;
-    }
-    
-    nav li {
-      list-style-position: inside;
-      font: 14px 'Oswald', sans-serif;
-      padding: 10px;
-    }
-    
-    .top-menu li {
+.explorer {
+
+border: 10px solid hsla(0, 0%, 100%, .0);
+border-width: 892;
+position: absolute;
+margin: 0px 120px;
+width: 892px;
+height: 422px;
+left: 120px;
+top: 122px;
+}
+.explorer h1 {
+  font-family: 'Aleo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+  
+  color: #FFFFFF;
+}
+.explorer h3{
+  font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+.search{
+  position: absolute;
+  width: 892px;
+  height: 95px;
+  left: 0px;
+  top: 416px;
+  background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+}
+.search h3{
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #F2785C;
+}
+.frame2{
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+  position: absolute;
+  width: 0px;
+  height: 59px;
+  left: 500px;
+  top: 0px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 42px;
+  position: absolute;
+  width: 527px;
+  height: 21px;
+  left: 494px;
+  top: 35px;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  }
+  .menu a{
+    color:#FFFFFF;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+  }
+  nav li{
+    display: flex;
+    list-style-type: none;
+  }
+  nav ul{
+    display: flex;
+    margin-left: 0; 
+    padding-left: 0;
+  }
+  .search2 {
+    position: absolute;
+width: 1177px;
+height: 247px;
+left: 131px;
+top: 845px;
+  }
+  .search2 h2{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    text-align: center; 
+  }
+  .search2 p{
+    text-align: center; 
+  }
+  .pages{
+    position: absolute;
+width: 1177px;
+height: 154px;
+left: 0px;
+top: 93px;
+  }
+  .search3 {
+    position: absolute;
+    width: 2520px;
+    height: 1042px;
+    left: -540px;
+    top: 1189px;
+  }
+  .search3 h2{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    text-align: center; 
+  }
+  .search3 p{
+    text-align: center; 
+  }
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  
+    .card {
       display: inline-block;
-      padding: 10px 30px;
-      margin: 0;
     }
-    
-    .top-menu li.active {
-      background: #29c5e6;
-      color: #fff;
-    }
-    
-    .top-menu a {
-      color: #b2b2b2;
-    }
-    #heading {
-      background: transparent url(../images/h1-bg.png);
-      margin: 30px 0;
-      padding-left: 20px;
-    }
-    
-    h1 {
-      display: inline-block;
-      color: #7e7e7e;
-      font: 40px/40px 'Oswald', sans-serif;
-      background: url(../images/bg.png);
-      margin: 0;
-      padding: 0 10px;
-    }
-    main {
-      float: left;
-      width: 250px;
-    }
-    section {
-      margin-left: 280px;
-      padding-bottom: 50px;
-      display: inline-block;
-      scroll-behavior: smooth;
-    }
-    .main-menu li {
-      font-weight: 300;
-      list-style-type: square;
-      border-top: 1px solid #e7e7e7;
-    }
-    
-    .main-menu li:first-child {
-      border: none;
-    }
-    
-    .main-menu li.active {
-      color: #29c5e6;
-    }
-    
-    .main-menu a {
-      color: #8f8f8f;
-    }
-    blockquote {
-      margin: 0;
-      background: #29c5e6;
-      padding: 10px 20px;
-      font-family: 'Oswald', sans-serif;
-      font-weight: 300;
-    }
-    
-    blockquote p {
-      color: #fff;
-      font-style: italic;
-      font-size: 33px;
-      margin: 0;
-    }
-    
-    blockquote cite {
-      display: block;
-      font-size: 20px;
-      font-style: normal;
-      color: #1d8ea6;
-      margin: 0;
-      text-align: right;
-    }
-    footer {
-      background: #7e7e7e;
-      color: #dbdbdb;
-      font-size: 11px;
-    }
-    
-    #footer {
-      max-width: 960px;
-      margin: auto;
-      height: 90px;
-    }
-    html {
-      scroll-behavior: smooth;
-      }
+  }

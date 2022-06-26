@@ -5,64 +5,65 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title>Whitesquare</title>
 	<link rel="stylesheet" href="style.css">
-    <link type="image/png" sizes="192x192" rel="icon" href="…/android-icon-192x192.png">
     <style>
 
     </style>
 </head>
-<body>
-    <frameset cols="*,*,*,*"> <frame src="../file_path/frame_1.html"> <frame src="frame_2.html"> <frame src="frame_3.html"></frameset>
+<body class="wrapper">
     <header>
         <nav>
-            <ul class="top-menu">
-                <li><a href="#photo" class="nav-link">Photo</li>
-                <li><a href="#courses" class="nav-link">Courses</a></li>
-                <li><a href="#contacts" class="nav-link">Сontacts</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#code" class="nav-link">Code</a></li>
-                <li><a href="#goal" class="nav-link">Goal</a></li>
+            <ul class="menu">
+                <li><a href="#preview">How it Works</a></li>
+                <li><a href="#steps">Plan Your Trip</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#stories">Travel Stories</a></li>
             </ul>
         </nav> 
+      <div class="frame">
+        <img src="assets/img/Frame 1.svg">
+      </div>
     </header>
 	<main>
-        <form name="search" action="#" method="get">
-            <input type="text" name="q" placeholder="Search"><button type="submit">GO</button>
-        </form>
+        <div class="explorer">
+            <p><h1>Explore the beauty of the World</h1></p>
+            <p><h3>Receive personalized recommendations for countries, hotels, activities and more</h3></p>
+        <search class="search">
+          <p><h3>What would you like to do?</h3></p>
+          <p class="frame2">
+            <img src="assets/img/Frame 2.svg">
+        </p>
+        </search>
+        </div>
+        <section id="preview">
+            <search class="search2"> 
+                <p><h2>3 STEPS TO THE PERFECT TRIP</h2></p>
+                <p class="pages">
+                    <img src="assets/img/Frame 24.svg">
+                    <img src="assets/img/Frame 25.svg">
+                    <img src="assets/img/Frame 26.svg">
+                </p>
+            </search> 
+        </section>
+        <section id="steps">
+            <search class="search3">
+                <p><h2>POPULAR DESTINATIONS</h2></p>
+                <p class="pages">
+                <img src="assets/img/Destination 1.png"/>
+                <img src="assets/img/Destination 2.png"/>
+                <img src="assets/img/Destination 3.png"/>
+                </p>
+                
+        </search>
+        </section>
+        <section id="destinations">
+            <p><img src="assets/img/"></p>
+                
+        </section>
+        <section id="stories">
+            <p><img src="assets/img/"></p>
+        </section>
     </main>
-	<section>
-        <div id="photo">
-            <h1>Frantsuzova Nadezhda</h1>
-            <p class="rightpic">
-            <img src="https://user-images.githubusercontent.com/105450665/172068649-9b77c3b1-4763-4f90-8de4-6db708d2f125.jpg" alt="Фото" width="250">
-            </p>
-        </div>
-        <div id="courses">
-            <p><h2>JUNIOR FRONT-END DEVELOPER </h2></p>
-        </div>
-        <div id="contacts">
-            <p><h2>telephone: 89371871290</h2></p>
-        </div>
-        <div id="education">
-            <p><h2>Srednespecial POVT and AS, Higher SSISK, courses in 1c programming technical English at the elementary level</h2></p>
-        </div>
-        <div id="code">
-            <p> <h2>
-                <pre>
-                <code>
-                    ```javascript
-                    function multiply(a, b){
-                    return a * b;
-                    }
-                    ```
-                </code>
-                 </pre>
-                </h2>
-            </p>
-        </div>
-        <div id="goal"></div>
-        <p> <h2>My goal is to master a new profession, I hope thanks to perseverance, diligence and perseverance I will succeed! Programming in 1C language</h2></p>
-    </section>
-	<footer>
+		<footer>
         <div class="menu">
             <ul>
                 <li><p><a href="https://github.com/NadyaFrancuzova">NadyaFrancuzova</a></p></li>
